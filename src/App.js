@@ -27,7 +27,7 @@ const Tree = memo(({ children, name, style, defaultOpen = false }) => {
   );
 });
 
-// No child version of Tree, with darker text background.
+// No child version of Tree, with darker text background.q
 const DescriptiveTree = ( ({children, name, style, defaultOpen=false}) => {
   const [isOpen, setOpen] = useState(defaultOpen);
   const previous = usePrevious(isOpen);
